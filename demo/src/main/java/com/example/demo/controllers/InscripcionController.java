@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.models.Inscripcion;
+import com.example.demo.repositories.InscripcionRepository;
 
 @RestController
 @RequestMapping("/api/v1/inscripcion")
